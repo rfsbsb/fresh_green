@@ -15,6 +15,7 @@ sites/all/README.txt
 sites/all/modules/README.txt
 sites/all/themes/README.txt
 .htaccess
+logo.png
 
 #for non core developer
 #only include "sites" folder without exclusions before
@@ -25,7 +26,7 @@ update.php
 xmlrpc.php
 /includes
 /misc
-/modules     
+/modules
 /profiles
 /scripts
 /themes
