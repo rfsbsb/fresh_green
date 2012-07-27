@@ -1,0 +1,353 @@
+@font-face {
+    font-family: 'BreeSerifRegular';
+    src: url('./fonts/BreeSerif-Regular-webfont.eot');
+    src: url('./fonts/BreeSerif-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/BreeSerif-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Sans'), local('DroidSans'), url("http://themes.googleusercontent.com/static/fonts/droidsans/v3/s-BiyweUPV0v-yRb-cjciBsxEYwM7FgeyaSgU71cLG0.woff") format('woff');
+}
+
+@font-face {
+    font-family: "Dosis";
+    font-style: normal;
+    font-weight: 600;
+    src: local("Dosis SemiBold"), local("Dosis-SemiBold"), url("http://themes.googleusercontent.com/static/fonts/dosis/v1/f8qltGyj2S-SS_tsOHsjgfesZW2xOQ-xsNqO47m55DA.woff") format("woff");
+}
+
+
+body {
+  background: url('./img/bg.png') repeat scroll top left #fff;
+  color: #555555;
+  text-shadow: 1px 1px 0 #FFFFFF;
+  font-family: "Helvetica Neue",Arial,Helvetica,sans-serif;
+}
+
+a, a:visited, a:link, a:active, li a.active {
+  text-decoration: none;
+  color: #0B6C0B;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  font-weight: bold;
+}
+
+a:hover {
+  font-weight: bold;
+  color: #45AA45;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+  font-family: "Droid Sans", Verdana, Arial, Helvetica;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 5px;
+}
+
+
+p {
+  margin-bottom: 10px;
+}
+
+article {
+  border-radius: 0px ;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.19);
+  margin: 10px 0 50px;
+  padding: 8px;
+  background-color: #fff;
+}
+
+article > div.content {
+ /* background-color: #F1F1F1;*/
+  border: 1px solid #EBEBEB;
+  border-radius: 4px 4px 4px 4px;
+  box-shadow: 0 0 13px rgba(0, 0, 0, 0.22) inset;
+  padding: 10px 15px;
+}
+
+article div.bottom {
+  background: url("./img/bottom.png") no-repeat scroll 0 0 transparent;
+  height: 15px;
+  margin: 9px -8px;
+  position: absolute;
+  width: 880px;
+}
+
+article div.top {
+  background: url("./img/top.png") no-repeat scroll 0 0 transparent;
+  height: 15px;
+  position: absolute;
+  margin: 9px -8px;
+  margin-top: -24px;
+  width: 880px;
+  z-index: -1;
+}
+
+.page > header {
+  background: -moz-linear-gradient(center bottom , rgba(0, 0, 0, 0.09), transparent 80px) repeat scroll 0 0 #fff;
+  background: -webkit-linear-gradient(bottom,  rgba(0, 0, 0, 0.09),transparent 80px) repeat scroll 0 0 #fff;
+  background: -o-linear-gradient(bottom , rgba(0, 0, 0, 0.09), transparent 80px) repeat scroll 0 0 #fff;
+  background: -ms-linear-gradient(bottom , rgba(0, 0, 0, 0.09), transparent 80px) repeat scroll 0 0 #fff;
+  background: linear-gradient(center bottom , rgba(0, 0, 0, 0.09), transparent 80px) repeat scroll 0 0 #fff;
+  height: 150px;
+  box-shadow: 0 0 8px #232323;
+  margin-bottom: 30px;
+}
+
+h1.site-name, h2.site-name {
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+
+h1.site-name a, h2.site-name a {
+  color: #000000;
+  font-family: "BreeSerifRegular", Verdana, Arial, Helvetica;
+}
+
+h6.site-slogan {
+ font-family: "BreeSerifRegular", Verdana, Arial, Helvetica;
+ color: #8A8A8A;
+ font-size: 1.4em;
+ text-transform: uppercase;
+ letter-spacing: 1px;
+}
+
+#region-branding {
+  margin: 10px 0 0 40px;
+}
+
+#region-menu nav {
+  margin: 20px 0 0 20px;
+}
+
+#region-menu nav ul {
+  margin: 0;
+}
+
+#region-menu nav ul li a {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+aside section {
+  border: 1px solid #00A8FC;
+  margin: 0 0 10px 0;
+  border-radius: 5px;
+}
+
+aside section .content {
+  padding: 10px 10px 10px 0;
+}
+
+aside section h2 {
+  background-color: #00A8FC;
+  padding: 0 10px;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 0 #000;
+}
+
+aside section .item-list li {
+  background: url("./img/arrow.png") no-repeat scroll left center transparent;
+  padding-left: 15px;
+  margin-left: 1em;
+}
+
+article img {
+  border: 1px solid #EFEFEF;
+  border-radius: 10px 10px 10px 10px;
+  padding: 5px ;
+  vertical-align: bottom;
+}
+
+article img.file-icon {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+button:focus, button:active, input:focus, input:active, select:focus, select:active, textarea:focus, textarea:active {
+  box-shadow: 0 0 2px 0 #00A8FC inset;
+  z-index: 1;
+}
+
+#main-menu li a{
+  text-transform: uppercase;
+}
+
+.field-name-taxonomy-vocabulary-1 {
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+.field-name-taxonomy-vocabulary-1 .field-item {
+  background-image: url("./img/rrt.png"), url("./img/rrf.png");
+  background-position: left 1px, right 1px;
+  background-repeat: no-repeat, no-repeat;
+  float: left;
+  height: auto;
+  margin: 0 5px;
+  padding: 0 11px 0 0;
+}
+
+.field-name-taxonomy-vocabulary-1 .field-item a {
+  background: url("./img/rrm.png") repeat-x scroll left 1px transparent;
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 0.7em;
+  font-weight: bold;
+  height: 17px;
+  margin-left: 17px;
+  padding: 4px 4px 0;
+  text-shadow: 0 1px 0 #875B05;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+time.submitted {
+  background: url('./img/post-date.png') no-repeat scroll top center transparent;
+  height: 83px;
+  float: left;
+  width: 63px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: -45px 10px 0 -55px;
+}
+
+time.submitted .datas {
+  text-align: center;
+  width: 95%;
+  font-family: 'BreeSerifRegular', Verdana, Arial;
+}
+
+article footer nav {
+  float: right;
+  margin-bottom: 10px;
+}
+
+h1#page-title {
+  font-size: 2.2em;
+}
+
+h2.title {
+  font-size: 1.5em
+}
+
+/*
+article footer nav a {
+  background: url("./img/gd.png") repeat-x scroll 0 0 #45AA45;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  color: #fff !important;
+  font-weight: 500;
+  height: 30px;
+  line-height: 30px;
+  padding: 4px 10px 5px;
+  text-shadow: 1px 1px 0 #6a6a6a;
+  font-family: 'Dosis';
+}
+
+article footer nav a:hover {
+  background: url("./img/gdh.png") repeat-x scroll 0 0 #45AA45;
+}*/
+
+
+
+.comment-add {
+  position:relative;
+  padding:5px 1px;
+  margin:1em 0 3em;
+  border:2px solid #5a8f00;
+  text-align:center;
+  color:#333;
+  background:#fff;
+  /* css3 */
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+}
+
+/* creates larger curve */
+.comment-add:before {
+  content:"";
+  position:absolute;
+  z-index:10;
+  bottom:-8px;
+  left:10px;
+  width:10px;
+  height:6px;
+  border-style:solid;
+  border-width:0 2px 2px 0;
+  border-color:#5a8f00;
+  background:transparent;
+  /* css3 */
+  -webkit-border-bottom-right-radius:40px 25px;
+  -moz-border-radius-bottomright:40px 25px;
+  border-bottom-right-radius:40px 25px;
+    /* reduce the damage in FF3.0 */
+    display:block;
+}
+
+/* creates smaller curve */
+.comment-add:after {
+  content:"";
+  position:absolute;
+  z-index:10;
+  bottom:-8px;
+  left:10px;
+  width:4px;
+  height:6px;
+  border-style:solid;
+  border-width:0 2px 2px 0;
+  border-color:#5a8f00;
+  background:transparent;
+  /* css3 */
+  -webkit-border-bottom-right-radius:20px 25px;
+  -moz-border-radius-bottomright:20px 25px;
+  border-bottom-right-radius:20px 25px;
+    /* reduce the damage in FF3.0 */
+    display:block;
+}
+
+/* creates a small circle to produce a rounded point where the two curves meet */
+.comment-add > :first-child:before {
+  content:"";
+  position:absolute;
+  bottom:-40px;
+  left:8px;
+  width:2px;
+  height:2px;
+  background:#5a8f00;
+  /* css3 */
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+}
+
+/* creates a white rectangle to cover part of the oval border*/
+.comment-add > :first-child:after {
+  background: none repeat scroll 0 0 #FFFFFF;
+  bottom: -10px;
+  content: "";
+  height: 10px;
+  left: 16px;
+  position: absolute;
+  width: 5px;
+}
+
+.author-info {
+  margin: 10px 0;
+}
