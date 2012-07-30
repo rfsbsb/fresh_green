@@ -348,6 +348,12 @@ article footer nav a:hover {
   width: 5px;
 }
 
+.user-picture {
+  float: left;
+  margin-right: 10px;
+}
+
 .author-info {
-  margin: 10px 0;
+  border-bottom: 1px solid #DDDDDD;
+  margin: 0 0 10px 70px;
 }

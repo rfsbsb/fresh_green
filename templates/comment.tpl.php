@@ -11,15 +11,17 @@
     <?php if (isset($unpublished)): ?>
       <em class="unpublished"><?php print $unpublished; ?></em>
     <?php endif; ?>
-    <div class="author-info">
-     <?php
-        print t('Submitted by !username on !datetime',
-        array('!username' => $author, '!datetime' => '<time datetime="' . $datetime . '">' . $created . '</time>'));
-      ?>
+    <div class="author-box">
+      <?php print $picture; ?>
+      <div class="author-info">
+        <?php
+          print t('Submitted by !username on !datetime',
+          array('!username' => $author, '!datetime' => '<time datetime="' . $datetime . '">' . $created . '</time>'));
+        ?>
+      </div>
     </div>
   </header>
 
-  <?php print $picture; ?>
 
   <div<?php print $content_attributes; ?>>
     <?php
