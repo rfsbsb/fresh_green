@@ -143,26 +143,35 @@ h6.site-slogan {
 }
 
 aside section {
-  border: 1px solid #00A8FC;
+  border-top: 5px solid #CE4000;
   margin: 0 0 10px 0;
   border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 4px  rgba(0, 0, 0, 0.20);
 }
 
 aside section .content {
   padding: 10px 10px 10px 0;
 }
 
-aside section h2 {
-  background-color: #00A8FC;
-  padding: 0 10px;
-  color: #FFFFFF;
-  text-shadow: 1px 1px 0 #000;
+aside section h2.block-title {
+  box-shadow: 0 2px 9px -5px #666666;
+  color: #000000;
+  font-family: 'Droid Sans';
+  font-size: 1.4em;
+  line-height: 110%;
+  margin: 0;
+  padding: 10px 0 0 10px;
+  text-shadow: 1px 1px 0 #CCCCCC;
+  text-transform: uppercase;
 }
 
-aside section .item-list li {
+aside section .item-list li,
+aside section .language-switcher-locale-url li {
   background: url("./img/arrow.png") no-repeat scroll left center transparent;
   padding-left: 15px;
   margin-left: 1em;
+  list-style: none outside none;
 }
 
 article img {
