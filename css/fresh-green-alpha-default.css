@@ -88,6 +88,10 @@ article div.bottom span {
   z-index: -1;
 }
 
+article article.comment {
+  border-top: 5px solid #006DCE;
+}
+
 .page > header {
   background: -moz-linear-gradient(center bottom , rgba(0, 0, 0, 0.09), transparent 80px) repeat scroll 0 0 #fff;
   background: -webkit-linear-gradient(bottom,  rgba(0, 0, 0, 0.09),transparent 80px) repeat scroll 0 0 #fff;
@@ -159,7 +163,7 @@ aside section h2.block-title {
   font-size: 1.4em;
   line-height: 110%;
   margin: 0;
-  padding: 10px 0 0 10px;
+  padding: 10px 0 10px 10px;
   text-shadow: 1px 1px 0 #CCCCCC;
   text-transform: uppercase;
 }

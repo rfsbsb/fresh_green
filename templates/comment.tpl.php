@@ -39,6 +39,4 @@
       <nav class="links comment-links clearfix"><?php print render($content['links']); ?></nav>
     <?php endif; ?>
   </footer>
-
-
 </article>
