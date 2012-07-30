@@ -14,15 +14,7 @@
   src: local('Droid Sans'), local('DroidSans'), url("http://themes.googleusercontent.com/static/fonts/droidsans/v3/s-BiyweUPV0v-yRb-cjciBsxEYwM7FgeyaSgU71cLG0.woff") format('woff');
 }
 
-@font-face {
-    font-family: "Dosis";
-    font-style: normal;
-    font-weight: 600;
-    src: local("Dosis SemiBold"), local("Dosis-SemiBold"), url("http://themes.googleusercontent.com/static/fonts/dosis/v1/f8qltGyj2S-SS_tsOHsjgfesZW2xOQ-xsNqO47m55DA.woff") format("woff");
-}
-
-
-body {
+#page {
   background: url('./img/bg.png') repeat scroll top left #fff;
   color: #555555;
   text-shadow: 1px 1px 0 #FFFFFF;
