@@ -1,5 +1,4 @@
 <article<?php print $attributes; ?>>
-  <div class="top"></div>
   <div class="content">
     <?php print $user_picture; ?>
     <?php print render($title_prefix); ?>
@@ -39,7 +38,7 @@
     </footer>
     <?php endif; ?>
   </div>
-  <div class="bottom"></div>
+  <div class="bottom"><span>&nbsp</span></div>
 </article>
 
 <?php if (isset($content['comments']['comments'])): ?>
