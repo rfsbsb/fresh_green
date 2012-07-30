@@ -49,8 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 5px;
 }
 
-
-p {
+p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset  {
   margin-bottom: 10px;
 }
 
@@ -150,7 +149,7 @@ aside section,
 
 aside section .content,
 .block-search-form .content {
-  padding: 10px 10px 10px 0;
+  padding: 10px 10px 10px;
 }
 
 aside section h2.block-title {
@@ -167,11 +166,12 @@ aside section h2.block-title {
 
 aside section .item-list li,
 aside section .language-switcher-locale-url li,
-aside section ul li.collapsed {
+aside section ul li.collapsed,
+aside section .item-list ul li  {
   background: url("./img/arrow.png") no-repeat scroll left center transparent;
   padding-left: 15px;
-  margin-left: 1em;
   list-style: none outside none;
+  margin: 0;
 }
 
 article img {
