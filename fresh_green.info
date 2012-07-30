@@ -1,9 +1,10 @@
 name = Fresh Green
-description = A theme created to a personal website. Clean and simple.
+description = A clean and lightweight theme based on Omega theme.
 core = 7.x
 engine = phptemplate
 screenshot = screenshot.png
 base theme = omega
+dependencies[] = omega
 
 ; REQUIRED CORE REGIONS
 
@@ -90,15 +91,8 @@ settings[alpha_css][omega-text.css] = 'omega-text.css'
 settings[alpha_css][omega-branding.css] = 'omega-branding.css'
 settings[alpha_css][omega-menu.css] = 'omega-menu.css'
 settings[alpha_css][omega-forms.css] = 'omega-forms.css'
-settings[alpha_css][omega-visuals.css] = 'omega-visuals.css'
+settings[alpha_css][omega-visuals.css] = ''
 settings[alpha_css][global.css] = 'global.css'
-settings[alpha_debug_block_toggle] = '1'
-settings[alpha_debug_block_active] = '1'
-settings[alpha_debug_grid_toggle] = '1'
-settings[alpha_debug_grid_active] = '1'
-settings[alpha_debug_grid_roles][1] = '1'
-settings[alpha_debug_grid_roles][2] = '2'
-settings[alpha_debug_grid_roles][3] = '3'
 settings[alpha_toggle_messages] = '1'
 settings[alpha_toggle_action_links] = '1'
 settings[alpha_toggle_tabs] = '1'
@@ -369,9 +363,4 @@ settings[alpha_region_footer_second_columns] = '12'
 settings[alpha_region_footer_second_suffix] = ''
 settings[alpha_region_footer_second_weight] = '2'
 settings[alpha_region_footer_second_css] = ''
-; Information added by drupal.org packaging script on 2012-02-19
-version = "7.x-3.1"
-core = "7.x"
-project = "omega"
-datestamp = "1329681647"
-
+settings[toggle_secondary_menu] = ''

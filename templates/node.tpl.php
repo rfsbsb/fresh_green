@@ -30,7 +30,7 @@
     <footer class="clearfix">
       <?php
         // rewrite the links url to show the form in the right place
-        if ($content['links']['comment']['#links']['comment-add']['href']) {
+        if (isset($content['links']['comment']['#links']['comment-add']['href']) && $content['links']['comment']['#links']['comment-add']['href']) {
           $content['links']['comment']['#links']['comment-add']['href'] = 'node/'. $node->nid;
         }
       ?>

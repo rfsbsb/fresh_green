@@ -97,7 +97,6 @@ article div.bottom span {
   z-index: -1;
 }
 
-
 .page > header {
   background: -moz-linear-gradient(center bottom , rgba(0, 0, 0, 0.09), transparent 80px) repeat scroll 0 0 #fff;
   background: -webkit-linear-gradient(bottom,  rgba(0, 0, 0, 0.09),transparent 80px) repeat scroll 0 0 #fff;
@@ -144,7 +143,12 @@ h6.site-slogan {
   font-weight: bold;
 }
 
-aside section {
+.block-search-form {
+  padding-left: 20px;
+}
+
+aside section,
+.block-search-form {
   border-top: 5px solid #CE4000;
   margin: 0 0 20px;
   border-radius: 5px;
@@ -152,7 +156,8 @@ aside section {
   box-shadow: 0 0 4px  rgba(0, 0, 0, 0.20);
 }
 
-aside section .content {
+aside section .content,
+.block-search-form .content {
   padding: 10px 10px 10px 0;
 }
 
@@ -169,7 +174,8 @@ aside section h2.block-title {
 }
 
 aside section .item-list li,
-aside section .language-switcher-locale-url li {
+aside section .language-switcher-locale-url li,
+aside section ul li.collapsed {
   background: url("./img/arrow.png") no-repeat scroll left center transparent;
   padding-left: 15px;
   margin-left: 1em;
