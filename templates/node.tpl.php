@@ -2,7 +2,7 @@
   <div class="content">
     <?php print $user_picture; ?>
     <?php print render($title_prefix); ?>
-    <?php if (!$page && $title): ?>
+    <?php if ((!$page && $title) || $display_submitted): ?>
     <header>
       <?php if ($display_submitted): ?>
       <time class="submitted"  datetime="<?php print format_date($created, 'custom', 'Y-m-d');  ?>" pubdate="pubdate">
@@ -11,7 +11,9 @@
         <div class="no datas"><?php print format_date($created, 'custom', 'Y'); ?></div>
       </time>
       <?php endif; ?>
-      <h2<?php print $title_attributes; ?>><a href="<?php print $node_url ?>" title="<?php print $title ?>"><?php print $title ?></a></h2>
+      <?php if (!$page && $title): ?>
+        <h2<?php print $title_attributes; ?>><a href="<?php print $node_url ?>" title="<?php print $title ?>"><?php print $title ?></a></h2>
+      <?php endif; ?>
     </header>
     <?php endif; ?>
     <?php print render($title_suffix); ?>
