@@ -139,6 +139,14 @@ caption {
   border-radius: 5px 5px 0 0;
 }
 
+tr.odd {
+  background-color: #FFFFFF;
+}
+
+tr.even {
+  background-color: #EEEEEE;
+}
+
 th {
   border-bottom: 1px solid #CCCCCC;
   font-weight: bold;
@@ -147,11 +155,6 @@ th {
 
 td {
   padding: 5px;
-}
-
-tr.odd {
-  background-color: #FFD6C5;
-  font-weight: bold;
 }
 
 #region-branding {
