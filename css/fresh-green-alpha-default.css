@@ -126,6 +126,10 @@ table {
   margin: 15px 0;
 }
 
+table.mini {
+  font-size: 11px;
+}
+
 caption {
   background-color: #CE4000;
   box-shadow: 0 2px 5px #999999;
