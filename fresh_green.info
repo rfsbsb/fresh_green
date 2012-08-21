@@ -6,6 +6,8 @@ screenshot = screenshot.png
 base theme = omega
 dependencies[] = omega
 
+scripts[] = js/fresh_green.js
+
 ; REQUIRED CORE REGIONS
 
 regions[page_top] = Page Top
